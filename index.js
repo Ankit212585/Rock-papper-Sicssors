@@ -68,7 +68,7 @@ Choices.forEach((choice) => {
 
 const reset = () => {
   userScorepara.innerHTML = userScore = 0;
-  computerScorepara.innerHTML = userScore = 0;
+  computerScorepara.innerHTML = computerScore = 0;
   msg.innerHTML = "Play Your Move 😀";
   msg.style.background = "#081b31";
 };
